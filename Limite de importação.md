@@ -12,5 +12,10 @@
 * max_execution_time=3600
 
 3. Por fim, pressione **Ctrl+S** para salvar as alterações e feche o bloco de notas.
-
+4. Agora vamos modifcar o limite de execução
+  > Vá até a pasta onde está instalado o XAMPP, por padrão é instalada em: <br>
+  > **"C:\xampp\phpMyAdmin\libraries"** e abra o arquivo **"config.default.php"** com <br>
+  > seu editor de texto, pressione **Ctrl+F** para abrir a ferramenta de busca e <br>
+  > procure por **"$cfg['ExecTimeLimit'] = "** e altere o valor para 3600, pressione **Ctrl+S** <br>
+  > para salvar.
 ## Pronto! 😎⚡
